@@ -1,0 +1,5 @@
+{
+  "id": "example-001",
+  "text": "This repository contains an AI assistant that integrates with OpenAI GPT-4-mini and ChromaDB for context-aware responses.",
+  "source": "README.md"
+}

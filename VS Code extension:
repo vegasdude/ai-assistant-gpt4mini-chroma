@@ -1,0 +1,10 @@
+---
+
+✅ This is the **full scaffold** including your sample ChromaDB entries and all scripts.  
+
+Next step for you:  
+
+1. Copy this structure into a folder named `ai-assistant-gpt4mini-chroma/`.  
+2. Run:
+```bash
+zip -r ai-assistant-gpt4mini-chroma.zip ai-assistant-gpt4mini-chroma/

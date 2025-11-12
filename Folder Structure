@@ -1,0 +1,27 @@
+ai-assistant-gpt4mini-chroma/
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── .env.example
+│   ├── Procfile
+│   ├── render.yaml
+│   ├── data/
+│   │   └── sample_chroma.json
+│   └── utils/
+│       └── embeddings.py
+├── cli/
+│   └── assistant.py
+├── scripts/
+│   └── index_repo.py
+├── vscode-extension/
+│   ├── package.json
+│   └── extension.js
+├── .github/
+│   └── workflows/
+│       └── review-on-push.yml
+├── examples/
+│   └── movement.py
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── .gitignore

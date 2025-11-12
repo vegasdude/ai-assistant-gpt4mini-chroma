@@ -1,0 +1,12 @@
+[
+  {
+    "id": "example-001",
+    "text": "This repository contains an AI assistant that integrates with OpenAI GPT-4-mini and ChromaDB for context-aware responses. It includes a backend API, CLI tool, VS Code extension, and GitHub Action for automated code review.",
+    "embedding": []
+  },
+  {
+    "id": "example-002",
+    "text": "This repository by Anthony hosts a personal AI coding assistant project. The assistant helps review code, answer questions, and interact with repositories using OpenAI's GPT-4-mini API.",
+    "embedding": []
+  }
+]

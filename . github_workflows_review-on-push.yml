@@ -1,0 +1,18 @@
+name: Assistant Review Log
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  assistant-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Call assistant backend (log output)
+        env:
+          ASSISTANT_ENDPOINT: ${{ secrets.ASSISTANT_ENDPOINT }}
+        run: |
+          echo "Calling assistant backend..."
+          curl -s -X POST -H "Content-Type: application/json" \
+            -d '{"ref":"${{ github.ref }}"}' \
+            $ASSISTANT_ENDPOINT/on_push || echo "Call failed or ASSISTANT_ENDPOINT not set"

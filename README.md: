@@ -1,0 +1,18 @@
+# AI Assistant GPT-4-mini + ChromaDB
+
+A personal AI coding assistant by Anthony Dudek that uses OpenAI GPT-4-mini and ChromaDB for context-aware code answers.
+
+## Features
+
+- Chat with GPT-4-mini with repository-aware context
+- Index repository files into ChromaDB
+- CLI tool to query assistant from terminal
+- VS Code extension for in-editor queries
+- GitHub Action to log code push reviews
+
+## Setup
+
+1. Install dependencies:
+```bash
+cd backend
+pip install -r requirements.txt

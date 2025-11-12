@@ -1,0 +1,23 @@
+{
+  "name": "ai-assistant-gpt4mini",
+  "displayName": "AI Assistant GPT-4-mini",
+  "description": "VS Code extension connecting to hosted AI Assistant backend.",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.60.0" },
+  "activationEvents": ["onCommand:ai-assistant.ask"],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [{ "command": "ai-assistant.ask", "title": "Ask AI Assistant" }],
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "aiAssistant.endpoint": {
+          "type": "string",
+          "default": "http://127.0.0.1:5000/chat",
+          "description": "URL of the hosted assistant /chat endpoint"
+        }
+      }
+    }
+  },
+  "dependencies": { "node-fetch": "^3.0.0" }
+}

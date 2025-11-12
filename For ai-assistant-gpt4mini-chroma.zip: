@@ -1,0 +1,33 @@
+ai-assistant-gpt4mini-chroma/
+├── backend/
+│   ├── app.py                # Flask app (GPT-4-mini + ChromaDB)
+│   ├── requirements.txt
+│   ├── .env.example
+│   ├── Procfile
+│   ├── render.yaml
+│   ├── data/                 # ChromaDB vector store
+│   └── utils/
+│       └── embeddings.py     # helper for creating embeddings
+│
+├── cli/
+│   └── assistant.py          # terminal chat tool
+│
+├── scripts/
+│   └── index_repo.py         # index repo + send to /index
+│
+├── vscode-extension/
+│   ├── package.json
+│   ├── extension.js
+│   └── README.md
+│
+├── .github/
+│   └── workflows/
+│       └── review-on-push.yml
+│
+├── examples/
+│   └── movement.py
+│
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── .gitignore
